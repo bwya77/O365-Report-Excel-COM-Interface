@@ -11,7 +11,7 @@ For my report, I wanted to make sure it could do at least the following:
 2. Each WorkSheet will have a nice, clean heading
 3. Report the following:
   1. Licensed Mailboxes
-    - Users with licenses
+    1. Users with licenses
     
     
 Display Name
