@@ -12,9 +12,8 @@ For my report, I wanted to make sure it could do at least the following:
 3. Report the following:
   1. Licensed Mailboxes
     1. Users with licenses
+    1. Display Name
     
-    
-Display Name
 Friendly License Name
 If no friendly name found, just use the AccountSkuID
 Primary E-Mail Addresses
