@@ -1,6 +1,10 @@
 # O365-Report-Excel-COM-Interface
 [Blog Link](http://thelazyadministrator.com/2018/04/12/office-365-report-using-excel-com-interface-with-powershell/)
 
+[YouTube Link](https://www.youtube.com/watch?v=H9WkAttm6Ts)
+
+http://thelazyadministrator.com/wp-content/uploads/2018/04/PFs.png
+
 # .Description
 Generate an Excel workbook report based on infromation gathered from your Office 365 tenant. 
 
