@@ -11,35 +11,35 @@ For my report, I wanted to make sure it could do at least the following:
 1. Each WorkSheet will have a nice, clean heading
 1.Report the following:
 	1. Licensed Mailboxes
-	1. Users with licenses
-	1. Display Name
-1. Friendly License Name
-If no friendly name found, just use the AccountSkuID
-Primary E-Mail Addresses
-Alias E-Mail Addresses
-Groups
-Group Name
-Group Type
-Distribution
-Office 365 Group
-Security Group
-etc...
-Group E-Mail Address (if its got one!)
-Shared Mailboxes
-Shared Mailbox Name
-E-Mail Address
-Contacts
-Name
-E-Mail Address
-Public Folders
-Name
-If It's Mail-Enabled
-E-Mail Address
-Domains
-Domain Name
-If its fully verified
-If its default
-If it's default, highlight it
-Make the report good looking, and easy to read
-Show the data in alphabetical order
-Auto-Format Excel rows and columns
+		1. Users with licenses
+		1. Display Name
+		1. Friendly License Name
+			1. If no friendly name found, just use the AccountSkuID
+		1. Primary E-Mail Addresses
+		1. Alias E-Mail Addresses
+	1. Groups
+		1. Group Name
+		1. Group Type
+			1. Distribution
+			1. Office 365 Group
+			1. Security Group
+			1. etc...
+		1. Group E-Mail Address (if its got one!)
+	1. Shared Mailboxes
+		1. Shared Mailbox Name
+		1. E-Mail Address
+	1. Contacts
+		1. Name
+		1. E-Mail Address
+	1. Public Folders
+		1. Name
+		1. If It's Mail-Enabled
+		1. E-Mail Address
+	1. Domains
+		1. Domain Name
+		1. If its fully verified
+		1. If its default
+			1. If it's default, highlight it
+1. Make the report good looking, and easy to read
+1. Show the data in alphabetical order
+1. Auto-Format Excel rows and columns
