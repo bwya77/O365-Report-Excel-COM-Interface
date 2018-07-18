@@ -235,7 +235,7 @@ $Sheet_LicensedMailboxes.Cells.Item($row, $column).Font.ColorIndex = 2
 $Sheet_LicensedMailboxes.Cells.Item($row, $column).Font.ThemeFont = 1
 
 
-$Users = Get-Msoluser | Where-Object { $_.IsLicensed -eq $True } | Sort-Object DisplayName
+$Users = Get-Msoluser -All | Where-Object { $_.IsLicensed -eq $True } | Sort-Object DisplayName
 $Sheet_LicensedMailboxes_Y = 3
 $RowNumber = 0
 $LicenseName = @()
@@ -403,7 +403,7 @@ $Sheet_Group.Cells.Item($row, $column).Font.ColorIndex = 2
 $Sheet_Group.Cells.Item($row, $column).Font.ThemeFont = 1
 
 
-$Groups = Get-MsolGroup | Sort-Object DisplayName
+$Groups = Get-MsolGroup -All | Sort-Object DisplayName
 $Sheet_Groups_Y = 3
 $RowNumber = 0
 Foreach ($Group in $Groups)
